@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 
 export default function LoadingOverlay() {
-  // Initial state is derived synchronously (ESLint-safe)
+
   const [visible, setVisible] = useState<boolean>(() => {
     if (typeof window !== "undefined") {
       return document.readyState !== "complete";
