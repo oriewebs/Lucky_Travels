@@ -14,7 +14,7 @@ export default function Footer() {
           <div className="md:col-span-2 lg:col-span-1">
             <div className="mb-6">
               <h2 className="lg:text-[30px] sm:text-[16px]  font-bold">
-                <span className="text-white">Perera</span>
+                <span className="text-white">Lucky Tours</span>
                
               </h2>
             </div>
