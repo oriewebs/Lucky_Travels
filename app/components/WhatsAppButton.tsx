@@ -1,7 +1,7 @@
 "use client"
 import React from "react";
 
-const PHONE_NUMBER = "1234567890";
+const PHONE_NUMBER = "+94 770265453";
 const DEFAULT_MESSAGE = encodeURIComponent("Hello! I have a question about your tours.");
 
 export default function WhatsAppButton({ phone = PHONE_NUMBER, message = DEFAULT_MESSAGE }: { phone?: string; message?: string }) {
